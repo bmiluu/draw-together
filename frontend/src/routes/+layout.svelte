@@ -10,4 +10,11 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
+<style>
+	:global(body){
+		background-color: black;
+		color: white;
+	}
+</style>
+
 {@render children()}
