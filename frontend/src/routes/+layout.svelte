@@ -15,6 +15,10 @@
 		background-color: black;
 		color: white;
 	}
+	:global(*){
+		margin: 0;
+		padding: 0;
+	}
 </style>
 
 {@render children()}
